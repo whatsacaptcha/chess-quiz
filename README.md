@@ -1,4 +1,4 @@
-# Simple Template
+# Chess Quiz
 
 A template for projects
 
@@ -16,42 +16,44 @@ A template for projects
 
 ### Objective
 
-The goal of the project is to learn xyz by building abc.
+The goal of the project is to learn React by building a multiple-choice quiz.
 
 ### Notable Features
 
-- Add something
-- Edit something
-- Remove something
-- Allow users to complicate dev's job
+- Load questions from a fake API
+- Score tally
+- Highscore stored in local storage
+- Start and Finish screens
+- Highlight correct option
+- Possibility to replay
 
 ### Built With
 
 <p align="left">
   <img src="./README/html-logo.svg" alt="HTML Logo" width="40" height="40">
-  <!-- <img src="./README/css-logo.svg" alt="CSS Logo" width="40" height="40"> -->
-  <img src="./README/sass-logo.svg" alt="Sass Logo" width="40" height="40">
+  <img src="./README/css-logo.svg" alt="CSS Logo" width="40" height="40">
+  <!-- <img src="./README/sass-logo.svg" alt="Sass Logo" width="40" height="40"> -->
   <img src="./README/js-logo.svg" alt="JavaScript Logo" width="40" height="40">
-  <!-- <img src="./README/react-logo.svg" alt="React Logo" width="40" height="40"> -->
-  <!-- <img src="./README/vite-logo.svg" alt="Vite Logo" width="40" height="40"> -->
+  <img src="./README/react-logo.svg" alt="React Logo" width="40" height="40">
+  <img src="./README/vite-logo.svg" alt="Vite Logo" width="40" height="40">
   <!-- <img src="./README/vitest.svg" alt="Vitest Logo" width="40" height="40"> -->
-  <img src="./README/parcel-logo.svg" alt="Parcel Logo" width="40" height="40">
+  <!-- <img src="./README/parcel-logo.svg" alt="Parcel Logo" width="40" height="40"> -->
 </p>
 
 ## Development
 
 ### To Do
 
-- [ ] Rewrite the README
-  - [ ] Title
-  - [ ] Objective
-  - [ ] Notable Features
+- [x] Rewrite the README
+  - [x] Title
+  - [x] Objective
+  - [x] Notable Features
 - [ ] Plan
-  - [ ] User stories
+  - [x] User stories
   - [ ] Features
-  - [ ] Flowchart
+  - [x] Flowchart
   - [ ] Architecture
-  - [ ] UI Design/Sketch
+  - [x] UI Design/Sketch
 - [ ] Development
   - [ ] Basic HTML
     - [ ] Title
@@ -100,7 +102,13 @@ The goal of the project is to learn xyz by building abc.
 
 ### User Stories
 
-- As a user, I want...
+- As a user, I want to answer questions multiple-choice questions
+- As a user, I want to know the score
+- As a user, I want to know the right answer from the wrong ones
+- As a user, I want to click next to go to the next question
+- As a user, I want to start a new game after the last question
+- As a user, I want to keep track of my highscore
+- As a user, I want to see the progress of the quiz
 
 ### Features
 
@@ -108,13 +116,11 @@ The goal of the project is to learn xyz by building abc.
 
 ### Flowchart
 
-Page Loads ->
+Page Loads -> Questions load -> Start screen shows ->
+User clicks -> 1st question shows -> User clicks -> Right/Wrong answers light up
+-> User clicks "next" -> Next Q shows
 
 ### Architecture
-
-class App {
--greet()
-}
 
 ## Reflection
 
