@@ -1,0 +1,84 @@
+{
+  "questions": [
+    {
+      "question": "How many squares are there on a chess board?",
+      "options": [32, 64, 54, 36],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which piece can never move backward?",
+      "options": ["the knight", "the bishop", "the pawn", "the king"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "What best describes the movement of the knight?",
+      "options": [
+        "L-shaped",
+        "up and down, left and right",
+        "diagonnally",
+        "forward only"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What does castling allow?",
+      "options": [
+        "the king can move two squares",
+        "the king moves to relative safety",
+        "the rooks are closer to being connected",
+        "all of the above"
+      ],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "What rule does NOT apply to castling?",
+      "options": [
+        "the king must have moved before",
+        "the king must not be in check",
+        "the king cannot move through check",
+        "the rook must not have moved before"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "How long are the longest diagonals on the board?",
+      "options": ["6 squares", "7 squares", "8 squares", "9 squares"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "Which rule allows a pawn to capture a pawn that is behind itself?",
+      "options": ["checkmate", "check", "capture", "en passant"],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "Which square does the White King sit on in the starting position?",
+      "options": ["a1", "e1", "d1", "f1"],
+      "correctOption": 1,
+      "points": 20
+    },
+    {
+      "question": "Which square does the Black Queen sit on in the starting position?",
+      "options": ["a8", "e8", "d8", "f8"],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "Which player, considered the greatest of all time, gave up the title of world champion?",
+      "options": [
+        "Gary Kasparov",
+        "Emmanuel Lasker",
+        "Bobby Fischer",
+        "Magnus Carlsen"
+      ],
+      "correctOption": 3,
+      "points": 20
+    }
+  ]
+}
