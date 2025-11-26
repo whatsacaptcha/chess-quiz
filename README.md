@@ -4,15 +4,9 @@ A template for projects
 
 ## About the Project
 
-### Preview
-
-<div align='center'>
-    <img src='./README/project-preview.jpg'>
-</div>
-
 ### Live
 
-<a href='http://google.com/'>Google</a>
+<a href='https://erreurdesyntaxe.github.io/chess-quiz/'>Google</a>
 
 ### Objective
 
