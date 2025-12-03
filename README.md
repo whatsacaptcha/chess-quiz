@@ -6,7 +6,7 @@ A template for projects
 
 ### Live
 
-<a href='https://erreurdesyntaxe.github.io/chess-quiz/'>Google</a>
+<a href='https://whatsacaptcha.github.io/chess-quiz/'>Google</a>
 
 ### Objective
 

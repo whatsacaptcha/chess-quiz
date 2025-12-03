@@ -1,13 +1,13 @@
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className='footer'>
       This website was made by{' '}
       <a
-        className="footer-link"
-        href="https://github.com/ErreurDeSyntaxe"
-        target="_blank"
+        className='footer-link'
+        href='https://github.com/whatsacaptcha'
+        target='_blank'
       >
-        Erreur De Syntaxe
+        Xavier Bertrand
       </a>{' '}
       to hone his React skills.
     </footer>
